@@ -1,4 +1,4 @@
-package com.xinan.testoop;
+package com.xinan.testoop01;
 
 public class Master {
 	public void play(Pet pet){//使用父类Pet pet作为方法形参实现多态

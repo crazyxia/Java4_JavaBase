@@ -1,4 +1,4 @@
-package com.xinan.testoop;
+package com.xinan.testoop01;
 
 public abstract class Pet {
 	String name;
