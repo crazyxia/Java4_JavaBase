@@ -1,6 +1,6 @@
 package com.xinan.array;
 
-/**±¾³ÌĞòÊÇ²âÊÔÊı×éÏà¹ØÖªÊ¶
+/**æœ¬ç¨‹åºæ˜¯æµ‹è¯•æ•°ç»„ç›¸å…³çŸ¥è¯†
  * @author crazyxia
  *
  */
@@ -9,20 +9,20 @@ public class TestArray01 {
 	public static void main(String[] args){
 		
 		/*
-		 * Êı×éÓĞÁ½ÖÖ¶¨ÒåĞÎÊ½
+		 * æ•°ç»„æœ‰ä¸¤ç§å®šä¹‰å½¢å¼
 		 * eg:
 		 * int[] scores=new int[5];
 		 * int[] scores={45,48,97,89};
 		 */
-		String[] scores={"oracle","java","web"};//Êı×éµÄµÚÒ»ÖÖĞ´·¨£¬Æä´íÎóĞ´·¨£ºString[] scores=new String{"oracle","java"};
-																				//ÕıÈ·Ğ´·¨£ºString[] scores=new String[] {"oracle","java","web"}
-		int[] ages=new int[5];//Êı×éµÄµÚ¶şÖÖÊı×éĞ´·¨
+		String[] scores={"oracle","java","web"};//æ•°ç»„çš„ç¬¬ä¸€ç§å†™æ³•ï¼Œå…¶é”™è¯¯å†™æ³•ï¼šString[] scores=new String{"oracle","java"};
+																				//æ­£ç¡®å†™æ³•ï¼šString[] scores=new String[] {"oracle","java","web"}
+		int[] ages=new int[5];//æ•°ç»„çš„ç¬¬äºŒç§æ•°ç»„å†™æ³•
 		ages[0]=5;
 		ages[1]=7;
 		ages[2]=9;
-		//Êı×éµÄ±éÀú
+		//æ•°ç»„çš„éå†
 		for(int i=0;i<=2;i++){
-			System.out.println(ages[i]);//Ê¹ÓÃforÑ­»·±éÀúÊı×éÖĞÔªËØ
+			System.out.println(ages[i]);//ä½¿ç”¨forå¾ªç¯éå†æ•°ç»„ä¸­å…ƒç´ 
 		}
 		
 		System.out.println(scores[2]);
