@@ -5,6 +5,6 @@ package com.java1995.banksystem;
  *
  */
 public interface IABC  extends IUnionpay {			
-	public void cellPhonePay();
-	            //定义一个电话支付功能
+	public void cellPhonePay();//定义一个电话费支付功能
+
 }
