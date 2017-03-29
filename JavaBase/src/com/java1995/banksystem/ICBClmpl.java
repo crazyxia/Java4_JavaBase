@@ -38,10 +38,10 @@ public class ICBClmpl implements IICBC {
 		if(money>=number){
 			money=money-number;
 			System.out.println("余额为"+money);
-			return true;
+			
 		}else{
 			System.out.println("余额不足");
-			return false;
+			
 		}
 	}
 	
