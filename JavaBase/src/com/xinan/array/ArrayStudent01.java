@@ -20,16 +20,19 @@ public class ArrayStudent01 {
 			score[i]=sc.nextInt();//从键盘扫描并赋值给数组
 			//System.out.println("score["+i+"]="+score[i]+";");
 		}
-		double sum=0;
+		/*double sum=0;
 		for(int i=0;i<score.length;i++){
 			sum=sum+score[i];
 			System.out.println("第"+i+"次打印，sum和为"+sum);
 		}
 			avg=sum/score.length;
 			System.out.println("平均数为"+avg);
-			
+			*/
 			Arrays.sort(score);	//调用排序算法
-			for(int i=0;i<score.length;i++){
+			/*for(int i=0;i<score.length;i++){
+				System.out.println("score["+i+"]="+score[i]+";");
+			}*/
+			for(int i=score.length-1;i>0;i--){
 				System.out.println("score["+i+"]="+score[i]+";");
 			}
 	    }
