@@ -6,7 +6,7 @@ public class TestInterest {
 		int ret = test1();
 		System.out.println(ret);
 	}
-
+  
 	public static int test1() {
 		int a = 1;
 		try {

@@ -9,5 +9,6 @@ public class LinkedListDemo {
 		list.add(3);
 		list.add(5);
 		
+		
 	}
 }
