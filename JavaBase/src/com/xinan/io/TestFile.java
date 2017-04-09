@@ -21,5 +21,6 @@ public class TestFile {
 		System.out.println("isAbsolute:" + f1.isAbsolute());
 		System.out.println("length:" + f1.length());
 		f1.delete();
+		System.out.println(f1.pathSeparatorChar);
 	}
 }
