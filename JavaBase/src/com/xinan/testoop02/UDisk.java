@@ -1,4 +1,4 @@
-package com.xinan.testoop02;
+ package com.xinan.testoop02;
 
 public class UDisk implements UsbInterface{
 	public void service(){

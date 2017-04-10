@@ -16,7 +16,7 @@ public class TestPerson {
 		for (Field field : fs) {
 			sb.append("\t");// 空格
 			sb.append(Modifier.toString(field.getModifiers()) + " ");// 获得属性的修饰符，例如public，static等等
-			sb.append(field.getType().getSimpleName() + " ");// 属性的类型的名字
+	sb.append(field.getType().getSimpleName() + " ");// 属性的类型的名字
 			sb.append(field.getName() + ";\n");// 属性的名字+回车
 		}
 		sb.append("}");

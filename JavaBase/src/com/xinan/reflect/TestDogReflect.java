@@ -9,7 +9,7 @@ public class TestDogReflect {
 	public static void main(String[] args) throws Exception {
 		// Class clazz=Class.forName("com.xinan.reflect.Dog");//第一种获取类的方式
 		// Class clazz1=Person.class;//第二种获取类的方式
-		Class clazz2 = (new Person().getClass());
+		Class clazz2 = (new Person().getClass());//第三种获取类的方式
 		// Field fs = clazz2.getDeclaredField("name");
 		Field[] fs = clazz2.getDeclaredFields();
 		StringBuffer sb = new StringBuffer();
