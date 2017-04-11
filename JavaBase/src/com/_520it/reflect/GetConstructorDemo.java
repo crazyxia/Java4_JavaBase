@@ -27,7 +27,7 @@ public class GetConstructorDemo {
 	}
 
 	public static void getOne() throws Exception {
-		Class<?> clazz=User.class;//第一种方式
+		Class<?> clazz=Person.class;//第一种方式
 		//Class<?> clazz1=Class.forName("com._520it.reflect.User");//第二种方式
 		//Class<?> clazz2=(new User().getClass());//第三种方式
 		System.out.println(clazz);
