@@ -31,9 +31,9 @@ public enum Enum1 {
 		return age;
 	}
 
-	public String setAge(int age) {
+	public void setAge(int age) {
 		this.age = age;
-		return "修改年龄";
+		/*return "修改年龄";*/
 	}
 
 	public boolean isRest() {
