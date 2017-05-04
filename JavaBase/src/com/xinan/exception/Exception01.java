@@ -15,7 +15,7 @@ public class Exception01 {
 			ae.printStackTrace();
 			System.out.println("ArithmeticException被捕获");
 		} catch (InputMismatchException ime) {
-			ime.printStackTrace();
+			//ime.printStackTrace();
 			//System.out.println(ime.getMessage());
 			//System.out.println("InputMismatchException被捕获");
 		} catch (Exception e) {
